@@ -25,12 +25,45 @@ dl.custom-dl{
     background-color: #f1f8ff;
     border-left: 4px solid #007bff;
 }
+/*Estilização para os termos dt de listas de descrição*/
 dl.custom-dl dt{
     font-weight: bold;
     margin-bottom: 5px;
 }
+/*Estilização para os termos dt de listas de descrição*/
 dl.custom-dl dd{
     margin-left: 20px;
     margin-bottom: 10px;
 
+}
+
+
+
+/*Estilização básica de tabelas*/
+table.custom-table{
+    width: 100%; /*Faz a tabela ocupar toda a largura disponível*/
+    border-collapse: collapse; /*Colapsa todas as bordas da tabela*/
+    border-spacing: 0; /*Não deixa espaço entre as células*/
+    border: 1px solid #CCC; /*Define uma borda para a tabela*/
+}
+
+/*Estilização para as células (th e td)*/
+th, td{
+    border: 1px solid #CCC; /*Define bordas para cada célula*/
+    padding: 10px; /*Espaçamento interno das células*/
+    text-align: left; /*Alinhamento de texto à esquerda*/
+}
+/*Estilização para o cabeçalho da tabela*/
+th{
+    background-color: #f2f2f2; /*Fundo cinza para o cabeçalho*/
+    font-weight: bold; /*Negrito no texto do cabeçalho*/
+}
+/*Linhas alternadas*/
+tr:nth-child(even){
+    background-color: #f9f9f9; /*Fundo de cor alternada para linhas pares*/
+}
+/*Espaçamento extra entre as células*/
+table.custom-spacing{
+    border-collapse: separate; /*Bordas das células separadas*/
+    border-spacing: 15px; /*Espaçamento entre células*/
 }
