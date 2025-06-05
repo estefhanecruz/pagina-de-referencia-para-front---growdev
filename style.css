@@ -1,4 +1,4 @@
-/*Início da estilização de listas*/
+/*-----------Início da estilização de listas-----------*/
 /*Estilização para listas não ordenadas*/
 ul.custom-ul{
     list-style-type: square; /*Define o tipo de marcador*/
@@ -38,9 +38,9 @@ dl.custom-dl dd{
 
 }
 
-/*Fim da estilização de listas*/
+/*-----------Fim da estilização de listas-----------*/
 
-/*Início da estilização de tabelas*/
+/*-----------Início da estilização de tabelas-----------*/
 
 /*Estilização básica de tabelas*/
 table.custom-table{
@@ -70,9 +70,9 @@ table.custom-spacing{
     border-collapse: separate; /*Bordas das células separadas*/
     border-spacing: 15px; /*Espaçamento entre células*/
 }
-/*Fim da estilização de tabelas*/
+/*-----------Fim da estilização de tabelas-----------*/
 
-/*Início da estilização dos positions*/
+/*-----------Início da estilização dos positions-----------*/
 
 /*Container para posicionamento*/
 .container{
@@ -131,6 +131,53 @@ table.custom-spacing{
     text-align: center;
 }
 
+/*-----------Fim da estilização dos positions-----------*/
+/*-----------Início da estilização de float e visibilidade-----------*/
+
+/*Container principal*/
+.container{
+    width: 90%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+/*Elementos flutantes*/
+.box-left{
+    float: left;
+    width: 40%;
+    background-color: lightblue;
+    padding: 10px;
+    margin-right: 10px;
+}
+.box-right{
+    float: right;
+    width: 40%;
+    background-color: lightgreen;
+    padding: 10px;
+    margin-left: 10px;
+}
+.box-none{
+    float: none;
+    width: 100%;
+    background-color: lightcoral;
+    padding: 10px;
+    margin-top: 20px;
+    clear: both;
+}
+/*overflow: visible (padrão)*/
+.overflow-visible{
+    width: 100%;
+    height: 100px;
+    background-color: lightyellow;
+    overflow: visible;
+    border: 2px solid orange;
+    padding: 10px;
+}
+/*Overflow: hidden*/
+.overflow-hidden{
+    position: relative;
+}
 
 
-/*Fim da estilização dos positions*/
+/*-----------Fim da estilização de float e visibilidade-----------*/
