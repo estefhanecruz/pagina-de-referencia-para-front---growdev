@@ -224,6 +224,34 @@ table.custom-spacing{
 
 /*----------- Início da estilização de Pseudo Classe -----------*/
 
+/*Estilo para o input quando está desabilitado*/
+input:disabled{
+    background-color: #f0f0f0;
+    color: #aaa;
+    cursor: not-allowed; /*Cursor indicando que não pode ser clicado*/
+}
+/*Estilo para checkboxes e radio buttons quando estão selecionados*/
+input:checked{
+    accent-color: blue; /*Cor do botão selecionado*/
+}
+input:focus{
+    border: 2px solid blue; /*Borda azul ao focar*/
+    outline: none; /*Remove a borda padrão*/
+}
+/*Estilo para links visitados*/
+a:visited{
+    color: purple;
+}
+/*Estilo para o primeiro filho de um container*/
+.container-pClasse p:first-child{
+    font-weight: bold;
+    color: green;
+}
+/*Estilo para o terceiro filho de um container*/
+.container-pClasse p:nth-child(3){
+    font-style: italic;
+    color: orange;
 
+}
 
 /*----------- Fim da estilização de Pseudo Classe -----------*/
