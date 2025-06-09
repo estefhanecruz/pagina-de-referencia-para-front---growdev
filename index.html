@@ -134,24 +134,35 @@
     <section>
 
       <h1>Float: Left e Right</h1>
-      <div class="containter clearfix">
+      <div class="container clearfix">
         <div class="box-left">Flutua à esquerda</div>
-        <div class="box-left">Flutua à direita</div>
-        <p style="clear: both;"> Este é o conteúdo entre os elementos flutuantes.
+        <div class="box-right">Flutua à direita</div>
+        <p style="clear:both;"> Este é o conteúdo entre os elementos flutuantes.
           O texto "envolve" os blocos flutuantes de acordo com a sua posição na 
           página.</p>
-
       </div>
+
       <h2>Float: none</h2>
-      <div class="ontainer clearfix">
+      <div class="container clearfix">
         <div class="box-none">Sem flutuação (float: none)</div>
         <p>Este bloco não tem flutuação, ocupando 100% da largura disponível.
           Ele limpa os elementos flutuantes anteriores usando `clear: both`</p>
       </div>
 
       <h2>Overflow: visible (padrão) </h2>
-      <div class="container">
+      <div class="container-float">
         <div class="overflow-visible">
+            Este conteúdo será cortado se exceder a área definida.
+            Este conteúdo será cortado se exceder a área definida.
+            Este conteúdo será cortado se exceder a área definida.
+            Este conteúdo será cortado se exceder a área definida.
+            Este conteúdo será cortado se exceder a área definida.
+            Este conteúdo será cortado se exceder a área definida.
+            Este conteúdo será cortado se exceder a área definida.
+            Este conteúdo será cortado se exceder a área definida.
+            Este conteúdo será cortado se exceder a área definida.
+            Este conteúdo será cortado se exceder a área definida.
+            Este conteúdo será cortado se exceder a área definida.
             Este conteúdo será cortado se exceder a área definida.
             Este conteúdo será cortado se exceder a área definida.
             Este conteúdo será cortado se exceder a área definida.
@@ -176,8 +187,24 @@
       </div>
 
       <h2>Overflow: hidden</h2>
-      <div class="container">
+      <div class="container-float">
         <div class="overflow-hidden">
+            Este conteúdo será cortado se exceder a área definida.
+            Este conteúdo será cortado se exceder a área definida.
+            Este conteúdo será cortado se exceder a área definida.
+            Este conteúdo será cortado se exceder a área definida.
+            Este conteúdo será cortado se exceder a área definida.
+            Este conteúdo será cortado se exceder a área definida.
+            Este conteúdo será cortado se exceder a área definida.
+            Este conteúdo será cortado se exceder a área definida.
+            Este conteúdo será cortado se exceder a área definida.
+            Este conteúdo será cortado se exceder a área definida.
+            Este conteúdo será cortado se exceder a área definida.
+            Este conteúdo será cortado se exceder a área definida.
+            Este conteúdo será cortado se exceder a área definida.
+            Este conteúdo será cortado se exceder a área definida.
+            Este conteúdo será cortado se exceder a área definida.
+            Este conteúdo será cortado se exceder a área definida.  
             Este conteúdo será cortado se exceder a área definida.
             Este conteúdo será cortado se exceder a área definida.
             Este conteúdo será cortado se exceder a área definida.
@@ -201,7 +228,7 @@
         </div>
       </div>
       <h2>Overflow: scroll</h2>
-      <div class="container">
+      <div class="container-float">
         <div class="overflow-scroll">
            Este conteúdo será cortado se exceder a área definida.
             Este conteúdo será cortado se exceder a área definida.
@@ -221,7 +248,7 @@
           <div style="width: 300px;">Conteúdo muito largo para a área visível.</div>
         </div>
       </div>
-      <div class="container">
+      <div class="container-float">
         <div class="overflow-auto">
           Este conteúdo será cortado se exceder a área definida.
             Este conteúdo será cortado se exceder a área definida.
@@ -242,13 +269,12 @@
         </div>
       </div>
       <h2>Overflow-y: auto</h2>
-      <div class="container">
+      <div class="container-float">
         <div class="overflow-y-auto">
           Este conteúdo terá uma barra de rolagem apenas no eixo vertical quando necessário.
         <div>Conteúdo muito alto para a área visível.</div>
         </div>
       </div>
-
     </section>
 
 
