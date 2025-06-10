@@ -255,3 +255,45 @@ a:visited{
 }
 
 /*----------- Fim da estilização de Pseudo Classe -----------*/
+
+/*----------- Início da estilização de Pseudo Elementos -----------*/
+
+/*Estilo ::before para inserir conteúdo antes de um elemento*/
+.content-pElementos::before{
+    content: "📌"; /*Insere um ícone antes do parágrafo*/
+    font-size: 20px;
+    color: red;
+}
+/*Estilo ::after para inserir conteúdo depois de um elemento*/
+.content-pElementos::after{
+    content: "✨";
+    font-size: 20px;
+    color: gold;
+}
+
+/*Estilo ::first-letter para estilizar a primeira letra*/
+.highlight-first-letter::first-letter{
+    font-size: 2em; /*Aumenta o tamanho da primeira letra*/
+    font-weight: bold;
+    color: darkblue;
+    float: left; /*Flutua a primeira letra para dar um estilo capitular*/
+    margin-right: 5px;
+}
+/*Estilo ::first-line para estilizar a primeira linha*/
+.highlight-first-line::first-line{
+    font-weight: bold;
+    color: darkgreen;
+    font-style: italic;
+}
+::selection{
+    background-color: yellow; /*Altera a cor de fundo da seleção*/
+    color: black; /*Altera a cor do texto selecionado*/
+}
+li::marker{
+    color: blue;
+    font-size: 1.5em;
+    content: "👉"; /*Substitui o marcador por um emoji*/
+}
+
+
+/*----------- Fim da estilização de Pseudo Elementos -----------*/
