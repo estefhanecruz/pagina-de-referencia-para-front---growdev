@@ -300,14 +300,67 @@ li::marker{
 /*----------- Início da estilização de inline e block -----------*/
 .block-element{
     background-color: lightblue;
-    /*width: 300px;*/
+    /*width: 300px;*/ /*Permite customização da largura, mas mesmo assim o elemento ocupa toda a width do viewport*/
     padding: 10px;
     margin-bottom: 10px;
 }
-.inline-element{
+.inline-element{ /*Elemento Inline não permite a customização da largura e altura. O elemento ocupa apenas o espaço de seu conteúdo*/
     background-color: lightcoral;
     padding: 5px;
 }
 
-
 /*----------- Fim da estilização de inline e block -----------*/
+
+/*----------- Início da estilização de display -----------*/
+
+/*Exemplo de display: block*/
+.block-element{
+    display: block;
+    background-color: lightblue;
+    /*width: 300px;*/
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/*Exemplo de display: inline*/
+.inline-element{
+    display: inline;
+    background-color: lightcoral;
+    padding: 5px;
+}
+/*Exemplo de display: inline-block*/
+.inline-block-element{
+    display: inline-block;
+    background-color: lightgreen;
+    /*width: 150px;*/
+    padding: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+/*Exemplo display:flex*/
+.flex-container{
+    display: flex;
+    background-color: lightyellow;
+    padding: 10px;
+}
+.flex-item{
+    background-color: lightcoral;
+    padding: 20px;
+    margin-right: 10px;
+    text-align: center;
+}
+/*Exemplo display grid*/
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    background-color: lightgray;
+    padding: 10px;
+}
+.grid-item{
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+/*----------- Fim da estilização de display -----------*/
