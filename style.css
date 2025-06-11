@@ -295,5 +295,19 @@ li::marker{
     content: "👉"; /*Substitui o marcador por um emoji*/
 }
 
-
 /*----------- Fim da estilização de Pseudo Elementos -----------*/
+
+/*----------- Início da estilização de inline e block -----------*/
+.block-element{
+    background-color: lightblue;
+    /*width: 300px;*/
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.inline-element{
+    background-color: lightcoral;
+    padding: 5px;
+}
+
+
+/*----------- Fim da estilização de inline e block -----------*/
