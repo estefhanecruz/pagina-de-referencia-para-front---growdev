@@ -364,3 +364,31 @@ li::marker{
 }
 
 /*----------- Fim da estilização de display -----------*/
+
+/*----------- Início da estilização de flex container -----------*/
+
+/*Flex container básico*/
+.flex-container-h{
+    display: flex;
+    justify-content: space-between; /*Distribui os itens com espaço igual entre eles*/
+    align-items: center;/*Alinha os itens verticalmente ao centro*/
+    background-color: lightgray;
+    padding: 20px;
+    height: 200px; /*Altura fixa do container*/
+}
+.flex-item-horizontal{
+    background-color: lightcoral;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    flex-grow: 1; /*Faz os itens crescerem igualmente*/
+    margin: 10px;
+}
+
+/*Flex container vertical*/
+.flex-column-container{
+
+}
+
+/*----------- Fim da estilização de flex container -----------*/
